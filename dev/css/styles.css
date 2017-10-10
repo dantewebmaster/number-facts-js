@@ -1,0 +1,174 @@
+/**
+ * Vars 
+ */
+/**
+ * Mixins
+ */
+/* below width media querie */
+/* default pseudo style */
+/* css triangle */
+/* REM units with pixel fallback */
+/**
+ * Defaults 
+ */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Arial", sans-serif; }
+
+figure {
+  margin: 0; }
+
+img {
+  height: auto;
+  max-width: 100%; }
+
+.site-header,
+.site-content,
+.site-footer {
+  float: left;
+  padding: 1em 0;
+  width: 100%; }
+
+/**
+ * Typography 
+ */
+h1, h2, h3 {
+  font-family: "Tahoma", serif; }
+
+p {
+  font-family: arial, sans-serif;
+  margin-bottom: 1em; }
+
+/**
+ * Helpers 
+ */
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.text-center {
+  text-align: center; }
+
+/**
+ * Grid 
+ */
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.row {
+  clear: both;
+  float: left;
+  margin-left: -10px;
+  margin-right: -10px;
+  width: 100%; }
+
+.col {
+  display: block;
+  float: left;
+  min-height: 1px;
+  padding-left: 5px;
+  padding-right: 5px; }
+  .col-1 {
+    width: 100%; }
+  .col-2 {
+    width: 50%; }
+  .col-3 {
+    width: 33.33333%; }
+  .col-4 {
+    width: 25%; }
+  .col-5 {
+    width: 20%; }
+  .col-6 {
+    width: 16.66667%; }
+  .col-7 {
+    width: 14.28571%; }
+  .col-8 {
+    width: 12.5%; }
+  .col-9 {
+    width: 11.11111%; }
+  .col-10 {
+    width: 10%; }
+  .col-11 {
+    width: 9.09091%; }
+  .col-12 {
+    width: 8.33333%; }
+
+/** 
+ * Site-header 
+ */
+.site-header {
+  text-align: center; }
+
+/** 
+ * Site-footer 
+ */
+.fact-form,
+.the-fact {
+  background: #21b9ff;
+  color: #fff;
+  margin: 0 auto;
+  max-width: 660px;
+  padding: 30px;
+  padding: 3rem;
+  text-align: center; }
+
+.the-fact {
+  display: none;
+  padding-bottom: 1em;
+  padding-top: 1em; }
+  .the-fact h2 {
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: 900;
+    margin-bottom: 0.5em;
+    text-transform: uppercase; }
+  .the-fact p {
+    font-size: 14px;
+    font-size: 1.4rem;
+    line-height: 1.2; }
+
+input[type="text"] {
+  border: 0;
+  border-radius: 35px;
+  width: 100%;
+  padding: 15px 20px;
+  padding: 1.5rem 2rem;
+  font-size: 16px;
+  font-size: 1.6rem;
+  -webkit-box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.3); }
+
+/** 
+ * Site-footer 
+ */
+.credits {
+  font-size: 10px;
+  font-size: 1rem;
+  font-style: italic; }
+  .credits a {
+    color: #222;
+    font-weight: 600; }
+
+/**
+ * Components
+ */
+.button {
+  background: #ddd;
+  display: inline-block;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 20px;
+  padding: 1rem 2rem; }

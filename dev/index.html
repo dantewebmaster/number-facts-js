@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Number Facts Pure JavaScript</title>
+    <!--build:css css/styles.min.css-->
+    <link rel="stylesheet" href="css/lib/reset.css">
+    <link rel="stylesheet" href="css/lib/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- endbuild -->
+</head>
+<body>
+    <header id="masthead" class="site-header" role="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col col-1">
+                    <h1>Number Facts JavaScript</h1>
+                    <p>Enter a number and get a quick random fact about that number.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="content" class="site-content">
+        <main>
+            <section class="number-facts container">
+                <div class="fact-form">
+                    <input type="text" id="fact-number" placeholder="Enter a number here..." />
+                </div>
+                <div id="the-fact" class="the-fact">
+                    <h2 class="fact-title">A fact about the number <span id="the-number"></span></h2>
+                    <p id="fact-text"></p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer id="colophon" class="site-footer" role="content-info">
+        <div class="container">
+            <div class="row">
+                <div class="col col-1 text-center">
+                    <p class="credits">Number Facts - by <a target="_blank" href="https://dantewebmaster.com">Dante Webmaster</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--build:js js/main.min.js -->
+    <script src="js/main.js"></script>
+    <!-- endbuild -->
+</body>
+</html>
