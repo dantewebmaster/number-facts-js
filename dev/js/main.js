@@ -12,7 +12,7 @@ factNumber.addEventListener('input', getFactAjax);
  * Get data using AJAX.
  */ 
 function getFactAjax() {
-    let number = factNumber.value;
+    let number = factNumber.value.trim();
 
     theEnteredNumber.innerText = number;
 
